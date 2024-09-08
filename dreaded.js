@@ -99,10 +99,10 @@ for (const categor of commandCategories) {
 
 
    // do not leave the prefix string empty
-const antiviewonce = process.env.ANTIVIEWONCE || 'TRUE';
+const antiviewonce = process.env.ANTIVIEWONCE || 'FALSE';
 const video = await fs.readFileSync('./menu.mp4');
 const pict = await fs.readFileSync('./dreaded.jpg');
-const mode = process.env.MODE || 'PUBLIC';
+const mode = process.env.MODE || 'PRIVATE';
 const author = process.env.STICKER_AUTHOR || 'fortunatus';
     const prefix = process.env.PREFIX || '.';
 const mycode = process.env.COUNTRY_CODE || '254';
@@ -113,15 +113,15 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+    const packname = process.env.STICKER_PACKNAME || '❌Ǥ҉Ø҉Đ҉W҉Ɨ҉N҉❌';
+const dev = process.env.DEV || '2349012464012'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
-   const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+   const bad = process.env.BAD_WORD || 'null';
+const botname = process.env.BOTNAME || "❌Ǥ҉Ø҉Đ҉W҉Ɨ҉N҉❌";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
-    const autoreaddm = process.env.AUTOREAD || 'TRUE';
+    const autoreaddm = process.env.AUTOREAD || 'FALSE';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const antitag = process.env.ANTITAG || 'FALSE';
 const antilink = process.env.ANTILINK || 'TRUE';
@@ -197,7 +197,7 @@ const audiovn = "./alive.mp3";
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "Hi human, I am Alive",
-          body: "DREADED BOT",
+          body: "❌Ǥ҉Ø҉Đ҉W҉Ɨ҉N҉❌",
           thumbnailUrl: "https://telegra.ph/file/a5147a64a5b91d8cf945c.jpg",
           sourceUrl: '',
           mediaType: 1,
